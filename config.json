@@ -1,0 +1,18 @@
+{
+  "bot": {
+    "name": "Goal Predictor Bot Fixed",
+    "version": "4.0.0",
+    "author": "Ismail - @VIP_MFM"
+  },
+  "settings": {
+    "updateInterval": 45000,
+    "maxMatchesPerMessage": 5,
+    "enableLogging": true,
+    "debugMode": true
+  },
+  "messages": {
+    "welcome": "مرحباً بك في البوت المصحح!",
+    "error": "حدث خطأ، يرجى المحاولة لاحقاً",
+    "noMatches": "لا توجد مباريات حالياً"
+  }
+}
