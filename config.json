@@ -1,0 +1,25 @@
+{
+  "bot": {
+    "token": "8125363786:AAFZaOGSAvq_p8Sc8cq2bIKZlpe4ej7tmdU",
+    "adminIds": ["6565594143"],
+    "maxScansPerUser": 10,
+    "rateLimitPerMinute": 30
+  },
+  "1xbet": {
+    "baseURL": "https://1xbet.com",
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "updateInterval": 45000
+  },
+  "security": {
+    "useProxies": false,
+    "rotateUserAgents": true,
+    "enableRateLimiting": true
+  },
+  "features": {
+    "liveMonitoring": true,
+    "goalPredictions": true,
+    "matchStatistics": true,
+    "teamSearch": true
+  }
+}
